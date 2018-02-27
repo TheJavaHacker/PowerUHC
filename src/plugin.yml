@@ -1,0 +1,12 @@
+name: PowerUHC
+main: com.andrews_solutions.development.UHCCore
+author: TheJavaHacker
+version: 1.0-SNAPSHOT
+description:
+commands:
+  team:
+    usage: /team
+    description: Opens the Team Selection GUI.
+  game:
+    usage: /game <start|stop>
+    description: starts or stops the game.
