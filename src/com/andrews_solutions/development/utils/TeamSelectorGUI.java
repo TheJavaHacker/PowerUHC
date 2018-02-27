@@ -48,7 +48,7 @@ public class TeamSelectorGUI implements Listener{
 		BlueMeta.setLore(BlueLore);
 		BlueTeam.setItemMeta(BlueMeta);
 		
-		ItemStack RedTeam = new ItemStack(Material.WOOL, 1, (short) 11);
+		ItemStack RedTeam = new ItemStack(Material.WOOL, 1, (short) 14);
 		ItemMeta RedMeta = RedTeam.getItemMeta();
 		RedMeta.setDisplayName(ChatColor.RED + "Red Team.");
 		ArrayList<String> RedLore = new ArrayList<>();
@@ -62,7 +62,7 @@ public class TeamSelectorGUI implements Listener{
 		RedMeta.setLore(RedLore);
 		RedTeam.setItemMeta(RedMeta);
 		
-		ItemStack GoldTeam = new ItemStack(Material.WOOL, 1, (short) 11);
+		ItemStack GoldTeam = new ItemStack(Material.WOOL, 1, (short) 1);
 		ItemMeta GoldMeta = GoldTeam.getItemMeta();
 		GoldMeta.setDisplayName(ChatColor.GOLD + "Gold Team.");
 		ArrayList<String> GoldLore = new ArrayList<>();
@@ -76,7 +76,7 @@ public class TeamSelectorGUI implements Listener{
 		GoldMeta.setLore(GoldLore);
 		GoldTeam.setItemMeta(GoldMeta);
 		
-		ItemStack PinkTeam = new ItemStack(Material.WOOL, 1, (short) 11);
+		ItemStack PinkTeam = new ItemStack(Material.WOOL, 1, (short) 6);
 		ItemMeta PinkMeta = PinkTeam.getItemMeta();
 		PinkMeta.setDisplayName(ChatColor.LIGHT_PURPLE + "Pink Team.");
 		ArrayList<String> PinkLore = new ArrayList<>();
@@ -90,7 +90,7 @@ public class TeamSelectorGUI implements Listener{
 		PinkMeta.setLore(PinkLore);
 		PinkTeam.setItemMeta(PinkMeta);
 		
-		ItemStack GreenTeam = new ItemStack(Material.WOOL, 1, (short) 11);
+		ItemStack GreenTeam = new ItemStack(Material.WOOL, 1, (short) 5);
 		ItemMeta GreenMeta = GreenTeam.getItemMeta();
 		GreenMeta.setDisplayName(ChatColor.GREEN + "Green Team.");
 		ArrayList<String> GreenLore = new ArrayList<>();
@@ -104,7 +104,7 @@ public class TeamSelectorGUI implements Listener{
 		GreenMeta.setLore(GreenLore);
 		GreenTeam.setItemMeta(GreenMeta);
 		
-		ItemStack YellowTeam = new ItemStack(Material.WOOL, 1, (short) 11);
+		ItemStack YellowTeam = new ItemStack(Material.WOOL, 1, (short) 4);
 		ItemMeta YellowMeta = YellowTeam.getItemMeta();
 		YellowMeta.setDisplayName(ChatColor.YELLOW + "Yellow Team.");
 		ArrayList<String> YellowLore = new ArrayList<>();
@@ -118,7 +118,7 @@ public class TeamSelectorGUI implements Listener{
 		YellowMeta.setLore(YellowLore);
 		YellowTeam.setItemMeta(YellowMeta);
 		
-		ItemStack PurpleTeam = new ItemStack(Material.WOOL, 1, (short) 11);
+		ItemStack PurpleTeam = new ItemStack(Material.WOOL, 1, (short) 10);
 		ItemMeta PurpleMeta = PurpleTeam.getItemMeta();
 		PurpleMeta.setDisplayName(ChatColor.DARK_PURPLE + "Purple Team.");
 		ArrayList<String> PurpleLore = new ArrayList<>();
@@ -132,7 +132,7 @@ public class TeamSelectorGUI implements Listener{
 		PurpleMeta.setLore(PurpleLore);
 		PurpleTeam.setItemMeta(PurpleMeta);
 		
-		ItemStack CyanTeam = new ItemStack(Material.WOOL, 1, (short) 11);
+		ItemStack CyanTeam = new ItemStack(Material.WOOL, 1, (short) 9);
 		ItemMeta CyanMeta = CyanTeam.getItemMeta();
 		CyanMeta.setDisplayName(ChatColor.DARK_AQUA + "Cyan Team.");
 		ArrayList<String> CyanLore = new ArrayList<>();
