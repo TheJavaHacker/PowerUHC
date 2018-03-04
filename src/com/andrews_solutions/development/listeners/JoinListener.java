@@ -9,6 +9,7 @@ import org.bukkit.event.player.PlayerLoginEvent;
 
 import com.andrews_solutions.development.UHCCore;
 import com.andrews_solutions.development.utils.GameStates;
+import com.andrews_solutions.development.utils.ScoreboardManager;
 import com.andrews_solutions.development.utils.TeamException;
 import com.andrews_solutions.development.utils.TeamManager;
 
@@ -52,6 +53,8 @@ public class JoinListener implements Listener{
 		}catch(TeamException e1){
 			e1.printStackTrace();
 		}
+		
+		ScoreboardManager.lobbyScoreboard(player);
 	}
 
 }

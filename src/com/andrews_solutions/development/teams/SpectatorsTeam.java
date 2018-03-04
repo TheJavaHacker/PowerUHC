@@ -11,7 +11,7 @@ public class SpectatorsTeam implements UHCTeam{
 	
 	@Override
 	public String getName() {
-		return "Spectators";
+		return "Specs";
 	}
 
 	@Override
